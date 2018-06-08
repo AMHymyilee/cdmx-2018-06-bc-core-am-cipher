@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
   </head>
   <body>
@@ -11,14 +13,13 @@
 
 
     <h1>Cifrado Cesar</h1>
-    Introduce palabra a cifrar. </span><p><input type="text" id="mensaje"></p>
-    Introduce el número de saltos. </span><p><input type="text" id="num_salt"></p>
-    Resultado: <div id=resultado></div>
+    Introduce mensaje </span><p><input type="text" id="mensaje"></p>
+    Introduce offset </span><p><input type="text" id="num_salt"></p>
 
-
-
-    <th><span id="buttonC"><button onclick="cifrar()">Cifrar</button></span></th>
-    <th><span id="buttonD"><button onclick="decifrar()">Decifrar</button></span></th>
+    <th><span id="buttonC"><button class="btn" onclick="cifrar()">Cifrar</button></span></th>
+    <th><span id="buttonD"><button class="btn" onclick="decifrar()">Decifrar</button></span></th>
+  </br> </br>
+      Resultado: <div id=resultado></div>
     <p id="imprime"></p>
 
     <div id="root"></div>
