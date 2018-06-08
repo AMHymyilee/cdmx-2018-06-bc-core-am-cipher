@@ -4,9 +4,25 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
+    <div class="formulario" align="center">
+
+
+    <h1>Cifrado Cesar</h1>
+    Introduce palabra a cifrar. </span><p><input type="text" id="mensaje"></p>
+    Introduce el número de saltos. </span><p><input type="text" id="num_salt"></p>
+    Resultado: <div id=resultado></div>
+
+
+
+    <th><span id="buttonC"><button onclick="cifrar()">Cifrar</button></span></th>
+    <th><span id="buttonD"><button onclick="decifrar()">Decifrar</button></span></th>
+    <p id="imprime"></p>
+
     <div id="root"></div>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
